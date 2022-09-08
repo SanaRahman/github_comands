@@ -1,0 +1,47 @@
+Introduction to GitHub:
+ GitHub is a platform that allows users to solve problems together. It is a distributed Version Control System, through which we can clone an entire project and work on it in pairs, make changes to one’s code and bring innovations and improvements. Other than that, it provides version control through branching, people can change and update code simultaneously. In this way people around the world can contribute to many projects and hence through this platform innovation and evolution are occurring rapidly in software industry.            
+Note: To execute these commands one must have a GitHub account along with GitBash install on the local computer. 
+Branching and commits are two most important commands in GitHub. Branching allows you to develop features, fix bugs, or safely experiment with new ideas in a contained area of your repository, then after testing and confirming these changes one can merge them to the actual branch. A commit is an individual change to a file. These commits are snapshots of your entire repository at specific times. In the following paragraphs we shall explain its procedure.
+1.	Clone the project:
+To make changes in a project we must clone it a repository on our local device. Copy the link of the project from your GitHub account and open GitBash.
+Command: $ git clone <link of the project>
+
+2.	Create a new Branch:
+Command: $ git branch “new branch name”
+The initial branch name of a project is master. We create a new branch to make changes in the project through this command. This branch won’t be added to the local file or on GitHub account yet.
+3.	Switch to the new branch from the master branch.
+Command: $git checkout “branch name”
+This command switches master branch to new branch. Through $ git log --oneline –decorate, we can see that now our project has two branches.
+4.	Create a new file in the new branch.
+Command: $ git vi filename.txt
+This creates a new file in our new file.
+•	Committing the newly created file: We shall now commit the newly created file. A file undergoes three types of states when being committed.
+a.	 Edit file:
+Command: $ git vim filename.txt
+We can edit file data through this command after which we check the status of the file.
+$ git status 
+The status appears to be modified, these changes to the file are neither saved on the local computer nor the GitHub account.
+
+b.	Add changes to staging area:
+Command: $git add filename.txt
+This command shall add the file to staging area and the status is updated to stagged.
+
+c.	Add changes to local repository:
+Command: $ git commit
+Now the file changes are updated on your local repository but not on the git account and state is changed to committed.
+
+d.	Update remote repository:
+Command: $ git push origin “new branch name”
+Now the branch as well as the edited file is made available on the local repository and the git account.
+
+5.	 Merge the new branch to the master branch:
+ After confirming the changes now, we can merge the new branch with the master branch.
+Command: $git checkout master (first switch to the master branch)
+$git merge “new branch name”
+Lastly commit the changes so that the remote repository is updated.
+$ git push origin master.
+
+
+
+
+ 
