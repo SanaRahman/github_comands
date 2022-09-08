@@ -49,7 +49,7 @@ project.
 Parts of convetional commits:
 conventional commits have five parts.
 
-<type>[optional scope]:<description>
+type [optional scope]: description
 [optional body]
 [optional footer]
 
