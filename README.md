@@ -1,5 +1,31 @@
 # github_comands
 
+Practiced Commands:
+1.git init
+2.git add README.md
+3.git checkout filename (revert changes)
+4.git log/ git log -p-2(the last 2 commits)
+5.git diff(comapres the modified files with last commit)/ git diff --stagged(comapres the stagged files with last commit)
+6.git add -A
+7.git add -u
+8.git add .
+9.git rm(remove files from directory and stagging)
+10.git rm --cached(removes from stagging)
+11.code .gitignore
+12.git barnch newbranch
+13.git checkout new branch
+14.git status
+15.git commit -m "feat:new feature added"
+16.git commit -a -m "feat:new feature added"(to skip stagging step)
+17.git remote add origin master
+18.git push -u origin master
+19.git merge "branchname"
+20.git branch
+21.git clone "link of repository" filename
+22.git restore --stagged(to unstage a file)
+
+
+
 BRANCHING STRATEGIES:
 
 1.Trunk Based development:
@@ -70,6 +96,11 @@ It is free form and you can write what changes you have made here.
 
 5. Optional Footer:
 It is also optional and a work token can be added along with # or :.
+
+
+
+
+
 
 
 
