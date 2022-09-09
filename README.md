@@ -46,6 +46,12 @@ Practiced Commands:
 
 22.git restore --stagged(to unstage a file)
 
+23.git branch --merged
+
+24.git branch --no-merged
+
+25.git barnch -d "barnch name" (delete branch)
+
 
 
 BRANCHING STRATEGIES:
