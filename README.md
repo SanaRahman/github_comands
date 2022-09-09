@@ -52,6 +52,11 @@ Practiced Commands:
 
 25.git barnch -d "barnch name" (delete branch)
 
+26.git fetch origin (fetch the newly added branches from hithub) git checkout origin/newbranchname(get all files form the new branch on github)
+
+27.git pull origin master (updates files from github to vs code)
+
+28.git barnch -r (list of all the barnches on vscode)
 
 
 BRANCHING STRATEGIES:
