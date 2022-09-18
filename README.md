@@ -59,21 +59,21 @@ Practiced Commands:
 28.git barnch -r (list of all the barnches on vscode)
 
 
-BRANCHING STRATEGIES:
+## BRANCHING STRATEGIES:
 
-1.Trunk Based development:
+1. Trunk Based development:
 It has a single truck line/master. Everyone clones the code to their local computer,make changes and push it back to the trunk.
 It has no branches and there is no merging.
 It is a continuous development process and the easiest among all other stratergies.
 It is mostly used to fix bugs and errors.
 
-2.Feature Branching:
+2. Feature Branching:
 In feature branching everyone make a branch of the master to do changes in the code.
 After making changes they generate a pull request and than is followed by a merge operation to the master branch to implement them.
 It is a short cycle process and has continuous development.
 It is also easy to maintain and perform since merging is at only one level.
 
-3.Forking Stratergy:
+3. Forking Stratergy:
 In this process the repository is forked by the people who want to make changes to the code.
 After making changes they make a pull request to the owner, that is accepted through a merge operation.
 Here everyone copy the repository and make changes in this way they do not require any permissions.
